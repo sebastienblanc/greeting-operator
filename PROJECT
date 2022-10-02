@@ -1,0 +1,12 @@
+domain: devnation.redhat.com
+layout:
+- quarkus.javaoperatorsdk.io/v1-alpha
+projectName: greeting-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: devnation.redhat.com
+  kind: Greeting
+  version: v1
+version: "3"
