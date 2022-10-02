@@ -1,0 +1,7 @@
+apiVersion: "devnation.redhat.com/v1"
+kind: Greeting
+metadata:
+  name: greeting-instance
+spec: 
+  color: "orange"
+  greeting: "Bonjour"
