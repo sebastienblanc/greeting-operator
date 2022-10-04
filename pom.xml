@@ -36,10 +36,6 @@
       <artifactId>quarkus-operator-sdk</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.quarkiverse.operatorsdk</groupId>
-      <artifactId>quarkus-operator-sdk-csv-generator</artifactId>
-    </dependency>
-    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-micrometer-registry-prometheus</artifactId>
       <version>${quarkus.version}</version>
